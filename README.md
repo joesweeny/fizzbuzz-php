@@ -6,7 +6,7 @@ I could not find any thorough PHP examples of FizzBuzz so I created my own. Feel
 
 Instructions:
 ```
-1) Ensure you have PHP installed on your machine (version 5.6 used for this example).
+1) Ensure you have PHP installed on your machine (version 5.6.27 used for this example).
 ```
 ```
 2) Ensure you have PHPUnit installed on your machine (version 5.6.1 used for this example).
