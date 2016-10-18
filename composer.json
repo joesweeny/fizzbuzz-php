@@ -1,0 +1,12 @@
+{
+    "name": "joesweeny/fizzbuzz-php",
+    "authors": [
+        {
+            "name": "Joe Sweeny",
+            "email": "joesweeny84@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "5.6"
+    }
+}
