@@ -2,7 +2,7 @@
 
 I learned my first two languages, Ruby and Javascript, by starting with the FizzBuzz kata. Through repetition and practice this Kata enabled me to get a quick grasp on the syntax for the language and for testing.
 
-I could not find any thorough PHP examples of FizzBuzz so I created my own. Feel free to clone this repo and use it for your own learning requirements.
+I could not find any thorough PHP examples of FizzBuzz so I created my own. Feel free to clone or fork this repo and use it for your own learning requirements.
 
 Instructions:
 ```
