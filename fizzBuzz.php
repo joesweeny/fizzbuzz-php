@@ -2,6 +2,7 @@
   class FizzBuzz {
     public function isDivisibleByThree($number) {
       return $this->isDivisibleBy($number, 3);
+      // return $number % 3 == 0;
     }
 
     public function isDivisibleByFive($number) {
@@ -12,23 +13,20 @@
       return $this->isDivisibleBy($number, 15);
     }
 
-    private function isDivisibleBy($number, $divisor) {
+    public function isDivisibleBy($number, $divisor) {
       return $number % $divisor == 0;
     }
 
     public function says($number) {
-      if($this->isDivisibleByFifteen($number)) {
+      if ($this->isDivisibleByFifteen($number)) {
         return "FizzBuzz";
-      }
-      if($this->isDivisibleByThree($number)) {
+      } elseif ($this->isDivisibleByThree($number)) {
         return "Fizz";
-      }
-
-      if($this->isDivisibleByFive($number)) {
+      } elseif ($this->isDivisibleByFive($number)) {
         return "Buzz";
+      } else {
+        return $number;
       }
-
-      return $number;
     }
   }
 ?>
